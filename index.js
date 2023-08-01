@@ -50,9 +50,6 @@ server.set("views",templatePath);
 hbs.registerPartials(partialPath);
 //apis
 server.use("/",homeRoute);
-// server.get("/student",(req,res)=>{
-//     res.render('studentData');
-// });
 
 
 
